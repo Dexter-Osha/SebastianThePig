@@ -15,7 +15,7 @@ images = os.path.join(os.getcwd(), "Pigs")
 client = commands.Bot(command_prefix="!")
 
 # GRAB THE API TOKEN FROM THE .ENV FILE.
-DISCORD_TOKEN = 'OTcxNDAwNjQ5MDE3MjgyNjIx.YnJ9Wg.L6-No2kKb4IUcmOK9Zr5mMM_f4M'
+DISCORD_TOKEN = 'TOKEN'
 
 def select_random_image_path():
     return os.path.join(images, random.choice(os.listdir(images)))
