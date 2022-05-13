@@ -19,7 +19,7 @@ client = commands.Bot(intents=intents, command_prefix="!")
 
 
 # GRAB THE API TOKEN FROM THE .ENV FILE.
-DISCORD_TOKEN = 'OTcxNDAwNjQ5MDE3MjgyNjIx.YnJ9Wg.pQp2Q_kYWHwwR04GjxQ83686YcI'
+DISCORD_TOKEN = '[YOUR DISCORD TOKEN]'
 
 
 def select_random_image_path():
